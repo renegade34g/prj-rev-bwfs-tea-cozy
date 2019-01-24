@@ -1,0 +1,137 @@
+/* Universal Styles */
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+a:active, a:hover, a:focus, a:visited {
+  color: seashell;
+}
+
+/* Header Styles */
+
+header {
+ display: flex;
+ height: 69px;
+ width: 100%;
+ border-bottom: 1px solid seashell;
+ position: fixed;
+ z-index: 1;
+ background-color: black;
+}
+
+.logo {
+  display: flex;
+  flex-grow: 1;
+}
+
+.logo img {
+    height: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+  padding-right: 20px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+
+/* Main Content CSS */
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 1200px;
+}
+
+/* Mission Statement CSS */
+
+.image-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/img-mission-background.jpg);
+  height: 700px;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.mission {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+}
+
+/* Tea Month CSS */
+
+.tea-month {
+  text-align: center;
+  width: 1000px;
+  margin: auto;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+}
+
+.image img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+.tea-choices {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Locations CSS */
+
+.location-box {
+    background-image: url(./images/img-locations-background.jpg);
+    margin-top: 50px;
+    height: 500px;
+    text-align: center;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.address {
+  background-color: black;
+  height: 250px;
+  width: 300px;
+  opacity: 1;
+  margin-right: 40px;
+}
+
+/* Footer CSS */
+
+footer {
+  text-align: center;
+  height: 200px;
+  margin-left: 20px;1
+}
+
+footer .copyright {
+  text-align: left;
+}
